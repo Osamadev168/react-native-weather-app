@@ -3,7 +3,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import CurentWeather from "./CurrentWeather";
-import Weather from "./Weather";
+import Weather from "./OtherCityWeather";
 import SearchWeather from "./SearchWeather";
 import CurrentWeather from "./CurrentWeather";
 const Navigation = () => {

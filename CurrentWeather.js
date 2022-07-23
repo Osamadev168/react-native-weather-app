@@ -8,10 +8,10 @@ import {
   Button,
 } from "react-native";
 import React, { useEffect, useState } from "react";
-import Weather from "./Weather";
+import Weather from "./OtherCityWeather";
 import * as Location from "expo-location";
 import { Sunny, Cloudy, Rainy, Haze, Snow } from "./Images/Images.js";
-import LocationWeather from "./LocationWeather";
+import LocationWeather from "./LiveLocationWeather";
 export default function CurrentWeather({ navigation }) {
   const API_Key = "6c74e4d8f0a73dd8457bbf342ce9f8a5";
   const [weatherdata, setWeatherData] = useState(null);
